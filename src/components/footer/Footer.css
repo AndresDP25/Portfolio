@@ -1,0 +1,28 @@
+.footerContainer {
+    position: relative;
+    background-color: #000;
+    
+}
+
+.footerContainer path {
+     /* object-fit:cover; */
+     height: 100%;
+     width: 1400px;
+     vertical-align: middle;
+}
+
+.icons{
+    font-size: 20px;
+    color: white;
+    /* padding: 10px; */
+    margin: 10px;
+
+}
+
+.iconFont{
+    padding: 10px;
+}
+
+.copy{
+    color: white;
+}

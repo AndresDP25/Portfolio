@@ -1,0 +1,23 @@
+.carrouselContainer{
+    margin: 0 auto;
+    overflow-x: hidden;
+    /* border: 1px solid red; */
+}
+
+.carrousel{
+    display: flex;
+    cursor: grab;
+}
+
+.carrousel .item{
+    height: 500px;
+    /* width: 250px; */
+    /* max-width: 60rem; */
+    padding: 1rem;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}

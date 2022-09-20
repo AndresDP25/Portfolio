@@ -1,0 +1,33 @@
+.CertificatesContainer{
+    /* margin: 0 auto; */
+    /* overflow-x: hidden; */
+    /* border: 1px solid red; */
+    position: relative
+}
+
+.Certificates{
+    font-size: 30px;
+}
+
+.CertificatesImg{
+    display: flex;
+    /* cursor: grab; */
+}
+
+.CertificatesImg :hover{
+    transform: scale(1.1);
+}
+
+.item{
+    height: 19rem;
+    width: 100%px;
+    max-width: 60rem;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}

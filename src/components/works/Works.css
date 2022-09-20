@@ -1,0 +1,39 @@
+.WorksContainer{
+    /* margin: 0 auto; */
+    /* overflow-x: hidden; */
+    /* border: 1px solid red; */
+    position: relative;
+    
+    
+}
+
+.WorksContainer .projects{
+    font-size: 30px;
+}
+
+.Works{
+    display: flex; 
+    /* height: 80px;   */
+}
+
+.Works .item img{
+    height: 250px;
+}
+
+.Works :hover{
+    transform: scale(1.2);
+}
+
+.item{
+    height: 19rem;
+    width: 100%px;
+    max-width: 60rem;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
