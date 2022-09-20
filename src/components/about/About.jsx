@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css";
-import cv from "../../media/CV_Andres-Dalla-Pozza.pdf"
+import cv from "../../media/CV_Andres-Dalla-Pozza.pdf";
+import image_cv from "../../media/CV-T.jpeg"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
             <a className='btn btn-outline-secondary' href={cv} download>DOWNLOAD CV</a>
         </div>
         <div className="about-img">
-            <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="about" />
+            <img src={image_cv} alt="about" />
         </div>
     </div>
   )
