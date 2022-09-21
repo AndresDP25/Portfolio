@@ -4,8 +4,7 @@
     background: transparent;
     width: 100%;
     height: 80px;
-    padding-left:50px;
-    padding-right: 50px;
+    padding: 0 50px 0 50px !important;
     font-size: 20px;
     z-index: 1;
     line-height: 80px;
@@ -24,6 +23,11 @@
     cursor: pointer;
 }
 
+.navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .center { 
     display: flex;
 }
@@ -33,13 +37,22 @@
 }
 
 @media (max-width: 1000px) {  
-    .navbar-nav{
+  .navbar-nav{
         background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+        padding: 10px;
+        margin-top: 10px;
   }
+
   .nav-link{
     border-bottom: 1px solid white;
+    padding: 10px !important;
   }
   .navbar-toggler{
+    /* margin-right: 15px; */
+    padding: 10px !important;
+  }
+
+  .navbar-nav{
     margin-right: 15px;
   }
 }

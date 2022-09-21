@@ -10,7 +10,7 @@ import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Cover = () => {
     const toAbout = () => {
-        window.scrollTo({ top:550, left:0, behavior: "smooth"});
+        window.scrollTo({ top:620, left:0, behavior: "smooth"});
     }
 
   const particlesInit = async (main) => {
