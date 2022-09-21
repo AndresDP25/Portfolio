@@ -9,7 +9,7 @@ import carrera from "../../media/4.png";
 const CarouselCertificates = () => {
   return (
     <div id="carouselExampleControls" className="carousel1 slide" data-bs-ride="carousel">
-        <h2 className='mb-5'>SOME OF MY PROJECTS</h2>
+        <h2 className='mb-5'>CERTIFICATES</h2>
         <div className="carousel-inner">
             <div className="carousel-item active">
                 <img src={desarrollo_web} className="d-block w-100" alt="..."></img>
