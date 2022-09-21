@@ -4,10 +4,11 @@ import About from './components/about/About';
 import Carrousel from './components/carrousel/Carrousel';
 import Cover from "./components/cover/Cover";
 import Navbar from './components/navbar/Navbar';
-import Prueba from './components/prueba/Prueba';
 import Certificates from './components/certificates/Certificates';
 import Works from './components/works/Works';
 import Footer from './components/footer/Footer';
+import Carousel from './components/carousel/Carousel';
+import CarouselCertificates from './components/carouselCertificates/CarouselCertificates';
 
 
 
@@ -29,7 +30,9 @@ function App() {
       <Navbar isScrolling={scrollHeight} />
       <Cover />
       <About />
+      <Carousel />
       <Works />
+      <CarouselCertificates />
       <Certificates />
       <Footer />
     </div>

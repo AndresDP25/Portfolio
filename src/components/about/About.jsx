@@ -9,12 +9,12 @@ const About = () => {
         <div className="about-desc">
             <h3>Let me tell you something about me</h3>
             <p>
-              I am a person very passionate about work, it is one of my pillars. I like new challenges. I am very organized and constant.
+              I consider myself a very passionate and hard-working person, always looking for new challenges. I am organized, constant and responsible.
             </p>
             <a className='btn btn-outline-secondary' href={cv} download>DOWNLOAD CV</a>
         </div>
         <div className="about-img">
-            <img src={image_cv} alt="about" />
+            <img className='imagen' src={image_cv} alt="about" />
         </div>
     </div>
   )

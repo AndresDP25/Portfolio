@@ -100,8 +100,8 @@ const particlesLoaded =  (container) => {
         />
         <div className='text-center'>
           {/* <video className='video' src={coverVideo} autoPlay loop muted /> */}
-          <h1>Andres Dalla Pozza</h1>
-          <p>Developer | Designer | Content Creator </p>
+          <h1 className='name'>Andres Dalla Pozza</h1>
+          <p className='description'>Developer | Designer | Content Creator </p>
         </div>
         <div className='icon d-flex flex-column '>
             <h3>ABOUT ME</h3>

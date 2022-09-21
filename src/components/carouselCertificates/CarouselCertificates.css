@@ -1,0 +1,14 @@
+.carousel1{
+    width: 70% !important;
+    padding-bottom: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+}
+
+@media (min-width: 1000px) {  
+  .carousel1{
+    display: none;
+  }
+}

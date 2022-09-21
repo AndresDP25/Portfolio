@@ -31,3 +31,9 @@
     width: 100%;
     pointer-events: none;
 }
+
+@media (max-width: 1000px) {  
+    .CertificatesContainer{
+      display: none;
+    }
+  }
